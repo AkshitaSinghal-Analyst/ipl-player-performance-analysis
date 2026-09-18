@@ -2,6 +2,7 @@
 
 ## Project Overview
 This project analyzes IPL player batting performance using statistical data from 2016 to 2025.
+
 The analysis focuses on identifying top performers, understanding relationships between batting metrics, classifying players based on batting style, and building a regression model to predict total runs scored.
 
 ## Objective
@@ -22,6 +23,7 @@ The dataset includes information such as:
 - Total fours and sixes
 - Total fifties and centuries
 - Player rankings based on different batting metrics
+  
 No missing values were found in the dataset.
 
 ## Tools Used
@@ -44,6 +46,7 @@ No missing values were found in the dataset.
 Two custom features were created during the analysis:
 - **Consistency Score** = Total Fifties + Total Centuries
 - **Boundary Score** = Total Fours + (2 × Total Sixes)
+
 These features were used to study player consistency and boundary-hitting performance.
 
 ## Player Classification
@@ -59,12 +62,14 @@ A Linear Regression model was trained using:
 - Total Sixes
 - Total Fifties
 - Total Centuries
+
 The dataset was divided into 80% training data and 20% test data.
 
 ### Model Performance
 - **R² Score:** 0.926
 - **MAE:** 33.43 runs
 - **MSE:** 1739.93
+- 
 The model showed a strong relationship between the selected batting metrics and total runs scored. :contentReference[oaicite:1]{index=1}
 
 ## Key Findings
